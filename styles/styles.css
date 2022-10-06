@@ -1,0 +1,67 @@
+body {
+    font-family: Rubik, sans-serif;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p, li {
+    font-size: 1.2rem;
+}
+
+.outer-wrapper {
+    margin: auto;
+    max-width: 300px;
+    padding: 0 20px;
+}
+
+@media screen and (min-width: 750px) {
+    .outer-wrapper {
+        max-width: 750px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .outer-wrapper {
+        max-width: 1024px;
+    }
+}
+
+.nav-container {
+    text-align: right;
+}
+
+.primary-nav li {
+    font-size: 2rem;
+    display: inline-block;
+    margin-left: 24px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 750px) {
+    .hero {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+}
+
+.hero p {
+    font-size: 2rem;
+}
+
+.hero-photo {
+    /* width: 100%; */
+    max-width: 400px;
+    border-radius: 5%;
+}
