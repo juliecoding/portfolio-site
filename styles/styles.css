@@ -4,10 +4,12 @@ body {
 
 h1 {
     font-size: 5rem;
+    color: #025764;
 }
 
 h2 {
     font-size: 2.5rem;
+    color: #025764;
 }
 
 p, li {
@@ -47,6 +49,7 @@ p, li {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 10%;
 }
 
 @media screen and (min-width: 750px) {
@@ -61,7 +64,10 @@ p, li {
 }
 
 .hero-photo {
-    /* width: 100%; */
     max-width: 400px;
     border-radius: 5%;
+}
+
+.work-text {
+    max-width: 50%;
 }
